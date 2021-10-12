@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>5.2</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>Syed Abdul's Notebook</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>350</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files/WOW Slider/templates/backgnd/drive/</ImageTemplate>
+            <ImageTemplateName>Drive</ImageTemplateName>
+            <ImageWidth>1200</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/syeds/OneDrive/Documents/website/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/syeds/OneDrive/Documents/website</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>22</SlideshowDelay>
+            <SlideshowDuration>26</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <TemplateName>drive</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/syeds/Downloads/Umair/DOWNLOAD IMAGES/pic1.jpg</url>
+                <title>pic1</title>
+            </Image>
+            <Image>
+                <url>C:/Users/syeds/Downloads/Umair/DOWNLOAD IMAGES/pic2.jpg</url>
+                <title>pic2</title>
+            </Image>
+            <Image>
+                <url>C:/Users/syeds/Downloads/Umair/DOWNLOAD IMAGES/pic4.jpg</url>
+                <title>pic4</title>
+            </Image>
+            <Image>
+                <url>C:/Users/syeds/Downloads/Umair/DOWNLOAD IMAGES/pic5 (2).jpg</url>
+                <title>pic5 (2)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/syeds/Downloads/Umair/DOWNLOAD IMAGES/pic3.jpg</url>
+                <title>pic3</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

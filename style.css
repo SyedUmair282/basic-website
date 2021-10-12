@@ -1,0 +1,446 @@
+                    * {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    
+                    .wrapper {
+                        border: 5px black ridge;
+                        height: auto;
+                        width: 1200px;
+                        overflow: hidden;
+                        margin: 50px;
+                    }
+                    
+                    header {
+                        border: 5px grey ridge;
+                        height: 170px;
+                        width: inherit;
+                        background: -webkit-radial-gradient(bottom right, ellipse, darkgrey, grey, darkblue);
+                    }
+                    
+                    .img {
+                        border: 4px black ridge;
+                        border-radius: 50px;
+                        float: left;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                    }
+                    
+                    .head {
+                        font-size: 80px;
+                        margin-top: 20px;
+                        font-family: fantasy;
+                        color: rgb(90, 11, 11);
+                    }
+                    
+                    .qoutes {
+                        letter-spacing: 5px;
+                        font-weight: bolder;
+                        font-size: 14px;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        color: darkred;
+                        font-style: oblique;
+                        position: relative;
+                        left: 100px;
+                    }
+                    
+                    nav {
+                        border: 5px grey ridge;
+                        height: 80px;
+                        width: inherit;
+                        background: -webkit-radial-gradient(top right, ellipse, darkblue, grey, darkgrey);
+                    }
+                    
+                    nav ul {
+                        list-style: none;
+                    }
+                    
+                    nav ul li {
+                        border: 2px black groove;
+                        height: 40px;
+                        width: 100px;
+                        margin-top: 7px;
+                        padding-bottom: 15px;
+                        display: inline-block;
+                        line-height: 50px;
+                        font-weight: bold;
+                        border-radius: 10px;
+                        font-size: 15px;
+                        background-color: rgb(153, 22, 22);
+                        animation-name: anime;
+                        animation-duration: 5s;
+                        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+                        -webkit-animation-direction: alternate;
+                        transition-duration: 1s;
+                        transition-direction: alternate;
+                    }
+                    
+                    @keyframes anime {
+                        from {
+                            background-color: rgb(207, 67, 74);
+                            width: 200px;
+                            border-radius: 100px;
+                        }
+                        to {
+                            background-color: rgb(153, 22, 22);
+                        }
+                    }
+                    
+                    nav ul li a {
+                        color: black;
+                        text-decoration: none;
+                    }
+                    
+                    nav ul li:hover {
+                        height: 50px;
+                        background-color: rgb(85, 79, 170);
+                        font-size: 20px;
+                        font-style: italic;
+                        padding-top: 5px;
+                    }
+                    
+                    nav ul li a:hover {
+                        color: darkblue;
+                    }
+                    
+                    nav ul li ul {
+                        display: none;
+                    }
+                    
+                    nav ul li:hover ul {
+                        display: block;
+                        position: absolute;
+                        margin: -2px;
+                        margin-top: 5px;
+                    }
+                    
+                    nav ul li:hover ul li {
+                        float: none;
+                        display: block;
+                    }
+                    
+                    .slider {
+                        border: 5px gray ridge;
+                        height: 360px;
+                        width: inherit;
+                    }
+                    
+                    .maincontent {
+                        border: 5px gray ridge;
+                        height: 1400px;
+                        width: 800px;
+                        float: left;
+                        background: -webkit-linear-gradient(bottom right, darkgray, darkblue, darkred);
+                    }
+                    
+                    .one {
+                        position: relative;
+                        left: 40px;
+                        top: 20px;
+                        border: 3px black ridge;
+                        height: 38px;
+                        width: 35px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        text-align: center;
+                        font-weight: bold;
+                        padding-top: 12px;
+                    }
+                    
+                    .goku {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .goline {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .readg a {
+                        position: relative;
+                        left: 80px;
+                        top: -30px;
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                    }
+                    
+                    .second {
+                        position: relative;
+                        left: 40px;
+                        top: 20px;
+                        border: 3px black ridge;
+                        height: 38px;
+                        width: 35px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        text-align: center;
+                        font-weight: bold;
+                        padding-top: 12px;
+                    }
+                    
+                    .vegeta {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .veline {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .readv a {
+                        position: relative;
+                        left: 80px;
+                        top: -30px;
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                    }
+                    
+                    .third {
+                        position: relative;
+                        left: 40px;
+                        top: 20px;
+                        border: 3px black ridge;
+                        height: 38px;
+                        width: 35px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        text-align: center;
+                        font-weight: bold;
+                        padding-top: 12px;
+                    }
+                    
+                    .jiren {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .jline {
+                        position: relative;
+                        left: 90px;
+                        top: -30px;
+                    }
+                    
+                    .readj a {
+                        position: relative;
+                        left: 80px;
+                        top: -30px;
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                    }
+                    
+                    .news {
+                        position: relative;
+                        left: 50px;
+                        top: 20px;
+                    }
+                    
+                    .gnew {
+                        position: relative;
+                        left: -420px;
+                        top: -20px;
+                    }
+                    
+                    .tnew {
+                        position: relative;
+                        left: -180px;
+                        top: -228px;
+                    }
+                    
+                    .hnew {
+                        position: relative;
+                        left: 90px;
+                        top: -437px;
+                    }
+                    
+                    .ho {
+                        text-align: center;
+                        transition-duration: 1s;
+                        position: relative;
+                        left: 455px;
+                        top: 20px;
+                    }
+                    
+                    .ho:hover {
+                        background-color: rgb(160, 23, 23);
+                    }
+                    
+                    .omni {
+                        border: 3px black ridge;
+                        position: relative;
+                        left: 453px;
+                        top: 20px;
+                    }
+                    
+                    ul li p {
+                        position: relative;
+                        left: 453px;
+                        top: 20px;
+                    }
+                    
+                    .aboutus {
+                        border: 5px purple ridge;
+                        height: 200px;
+                        width: 1200px;
+                        float: left;
+                        background-color: lightgreen;
+                    }
+                    
+                    .contactus {
+                        border: 5px purple ridge;
+                        height: 200px;
+                        width: 1200px;
+                        float: left;
+                        background-color: rgb(190, 197, 190);
+                    }
+                    
+                    aside {
+                        border: 5px gray ridge;
+                        height: 1400px;
+                        width: 380px;
+                        float: left;
+                        background: -webkit-radial-gradient(left, circle, rgb(126, 116, 145), rgb(101, 98, 141), rgb(108, 82, 150));
+                    }
+                    
+                    aside h1 {
+                        text-align: center;
+                        font-size: 35px;
+                    }
+                    
+                    aside marquee p {
+                        border-bottom: 3px black ridge;
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    
+                    aside marquee p a {
+                        text-decoration: none;
+                        color: rgb(88, 12, 12);
+                    }
+                    
+                    footer {
+                        border: 5px grey ridge;
+                        height: 470px;
+                        width: inherit;
+                        float: left;
+                        background: -webkit-radial-gradient(left, circle, darkred, rgb(87, 15, 15));
+                    }
+                    
+                    .foot {
+                        font-size: 35px;
+                        position: relative;
+                        left: 50px;
+                        top: 20px;
+                    }
+                    
+                    .list {
+                        list-style-type: disc;
+                        list-style-position: inside;
+                        position: relative;
+                        left: 50px;
+                        top: 20px;
+                        font-weight: bold;
+                    }
+                    
+                    li a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                    
+                    .secfoot {
+                        position: relative;
+                        left: 340px;
+                        top: -216px;
+                        font-size: 35px;
+                    }
+                    
+                    .seclist {
+                        position: relative;
+                        left: 360px;
+                        top: -203px;
+                        font-weight: bold;
+                    }
+                    
+                    .thrfoot {
+                        position: relative;
+                        left: 640px;
+                        top: -363px;
+                        font-size: 35px;
+                    }
+                    
+                    .thrlist {
+                        position: relative;
+                        left: 660px;
+                        top: -369px;
+                        font-weight: bold;
+                    }
+                    
+                    .fifoot {
+                        position: relative;
+                    }
+                    
+                    .fthfoot {
+                        border: 6px black dashed;
+                        border-radius: 40px;
+                        height: 40px;
+                        width: 155px;
+                        color: rgb(14, 12, 107);
+                        position: relative;
+                        left: 950px;
+                        top: -400px;
+                        font-size: 23px;
+                        text-align: center;
+                        padding-top: 10px;
+                    }
+                    
+                    .face {
+                        position: relative;
+                        top: 40px;
+                        right: 10px;
+                    }
+                    
+                    .contact {
+                        position: relative;
+                        top: -610px;
+                        left: 955px;
+                        font-size: 30px;
+                    }
+                    
+                    .home {
+                        position: relative;
+                        top: -590px;
+                        left: 870px;
+                    }
+                    
+                    .addre {
+                        position: relative;
+                        top: -640px;
+                        left: 955px;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                    
+                    .addres {
+                        position: relative;
+                        top: -650px;
+                        left: 955px;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                    
+                    .lin {
+                        position: relative;
+                        top: -400px;
+                    }
